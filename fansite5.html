@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html class="html-newsletter" lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="Marine P. Céline P.">
+    <title>Muse - Newsletter</title>
+    <link rel="stylesheet" href="fansite.css">
+    <link href="https://fonts.googleapis.com/css?family=Kanit:100&display=swap" rel="stylesheet">
+  </head>
+  <body class="body-newsletter">
+    <header>
+      <nav>
+        <div class="nav1">
+          <a href="fansite.html"><img src="ressources/musewhite.png" alt="logo muse white"> </a>
+        </div>
+        <div class="nav2">
+          <a href="fansite2.html">Events</a>
+          <a href="fansite3.html">Albums</a>
+          <a href="fansite4.html">Gallery</a>
+          <a href="fansite5.html">Newsletter</a>
+        </div>
+        <div class="nav3">
+          <ul id="menu-déroulant">
+            <li class="test1">
+              <div class="nav-tool">
+                <span class="nav-tool-bar"></span>
+                <span class="nav-tool-bar"></span>
+                <span class="nav-tool-bar"></span>
+              </div>
+              <ul class="test2">
+                <li><a href="fansite2.html">Events</a></li>
+                <li><a href="fansite3.html">Albums</a></li>
+                <li><a href="fansite4.html">Galerie</a></li>
+                <li><a href="fansite5.html">Newsletter</a></li>
+              </ul>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main class="main-newsletter">
+      <h3 class="h3-marges">NEWSLETTER</h3>
+      <form class="form-newsletter" action="fansite.html" method="post">
+        <h2>SIGN UP TO GET THE LATEST MUSE NEWS !</h2>
+        <div class="champs">
+          <label for="nom"></label>
+          <input id="nom" class="textfield" type="text" name="name" placeholder="NAME" required pattern=.{2,}>
+          <label for="email"></label>
+          <input id="email" class="textfield" type="email" name="email" placeholder="EMAIL ADDRESS" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required>
+        </div>
+        <button class="button-text" type="submit">SIGN UP !</button>
+      </form>
+    </main>
+    <footer>
+      <div class="final">
+        <div class="logo">
+          <p>MUSE</p>
+        </div>
+        <div class="RS">
+          <ul>
+            <li><a href="https://www.facebook.com/muse"><img src="ressources/facebook.png" alt="logo facebook"></a></li>
+            <li><a href="https://www.instagram.com/muse/"><img src="ressources/instagram.png" alt="logo instagram"></a></li>
+            <li><a href="https://twitter.com/muse"><img src="ressources/twitter.png" alt="logo twitter"></a></li>
+            <li><a href="https://www.youtube.com/muse"><img src="ressources/youtube1.png" alt="logo youtube"></a></li>
+            <li><a href="https://open.spotify.com/artist/12Chz98pHFMPJEknJQMWvI"><img src="ressources/spotify1.png" alt="logo spotify"></a></li>
+          </ul>
+        </div>
+        <div class="fanclub">
+          <ul>
+            <li><h4>OFFICIAL FANCLUB PARTNERS</h4></li>
+            <li><a href="https://www.muse.mu/">Muse.mu</a></li>
+            <li><a href="http://testmf.neowp.fr/">Muse official France fanclub </a></li>
+            <li><a href="http://www.muse-france.fr/">Muse France</a></li>
+          </ul>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
